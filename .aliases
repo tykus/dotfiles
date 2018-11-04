@@ -1,0 +1,14 @@
+alias phpunit="./vendor/bin/phpunit"
+alias p="phpunit"
+alias pf="phpunit --filter"
+alias pdox="phpunit --testdox"
+alias pw="phpunit-watcher watch"
+
+alias psh="psysh"
+
+alias fresh="php artisan migrate:fresh"
+alias refresh="php artisan migrate:refresh"
+alias tinker="php artisan migrate:tinker"
+alias a="php artisan"
+alias serve="php artisan serve"
+alias migrate="php artisan migrate"
