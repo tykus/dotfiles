@@ -9,7 +9,7 @@ alias cat="bat"
 
 alias fresh="php artisan migrate:fresh"
 alias refresh="php artisan migrate:refresh"
-alias tinker="php artisan migrate:tinker"
+alias tinker="php artisan tinker"
 alias a="php artisan"
 alias serve="php artisan serve"
 alias migrate="php artisan migrate"
