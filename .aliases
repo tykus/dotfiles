@@ -5,6 +5,7 @@ alias pdox="phpunit --testdox"
 alias pw="phpunit-watcher watch"
 
 alias psh="psysh"
+alias cat="bat"
 
 alias fresh="php artisan migrate:fresh"
 alias refresh="php artisan migrate:refresh"
@@ -12,3 +13,11 @@ alias tinker="php artisan migrate:tinker"
 alias a="php artisan"
 alias serve="php artisan serve"
 alias migrate="php artisan migrate"
+alias mfs="php artisan migrate:fresh --seed"
+alias dump="php artisan dump-server"
+alias analyse="./vendor/bin/phpstan analyse"
+
+alias nah="git reset --hard && git clean -df"
+alias wip="git add . && git commit -m \"WIP\""
+alias gcm="git checkout main"
+
